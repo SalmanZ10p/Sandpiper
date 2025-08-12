@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "provider": "mailjet",
+            "sourceEmail": "Sandpiper <sample_project@ecortest.com>",
+            "errorReportingEmail": "asymlabs@gmail.com"
+        }
+    ],
+    "events": {
+        "WELCOME_EMAIL": {
+            "subject": "Welcome to Sandpiper",
+            "templateName": "Verify Email",
+            "id": {
+                "mailjet": 6410451
+            }
+        },
+        "RESET_PASSWORD": {
+            "subject": "Reset your password",
+            "templateName": "Reset Password",
+            "id": {
+                "mailjet": 6410454
+            }
+        }
+    }
+}
