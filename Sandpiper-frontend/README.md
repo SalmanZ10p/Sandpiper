@@ -1,7 +1,3 @@
-# Rococo Sample App (rococo-sample-vue3)
-
-A Vue3 starting point for rococo-based web apps
-
 ## Install the dependencies
 ```bash
 yarn
